@@ -3,7 +3,7 @@
 Examples use cases of Output in Python
 """
 
-x = "ABC"
+x: str = "ABC" #type hint
 y = 5 + int("2") #str("2") #casting
 z = "im " + str("5") + " years old"
 
